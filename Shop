@@ -1,0 +1,7 @@
+Feature: Keep track of inventory
+
+Scenario: Use pen and paper for tracking
+Given vendor is in simple inventory
+When vendor make a list of every item he/she has that is currently for sale
+And vendor keep listing items everyday
+Then vendor can manage his/her shop easier   
