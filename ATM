@@ -1,0 +1,13 @@
+Feature: Deposit money into account
+
+Scenario: Successfully depositing money
+Given user is on ATM's home page
+When user insert his/her debit card into the ATM
+And enter the PIN
+And choosing an option for deposit
+And select the account to deposit
+And enter amount of deposit
+And insert the money into the ATM
+Then the account is updated
+And user get a receipt
+And user confirm that his/her session ended
